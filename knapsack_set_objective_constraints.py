@@ -68,4 +68,4 @@ model.add_constraint(product_weights[selected_products].sum() <= container_weigh
 # Submit the nonlinear model to the Stride hybrid solver.
 
 
-# Print the index values of the selected products for the best solution and displays its objective value.
+# Print the index values of the selected products for the best solution and display its objective value.

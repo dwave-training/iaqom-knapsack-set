@@ -4,11 +4,10 @@
   
 # Quadratic Knapsack With the Stride<sup>TM</sup> Hybrid Solver Using a Set Variable
 
-For the knapsack problem, convert the mathematical formulation into a model in Python. Use the set variable to represent the decision variable and code the problem so that it is compatible for submission to the Stride hybrid solver.
+For the knapsack problem, convert the mathematical formulation into a model in Python. Use a set to represent the decision variable and code the problem so that it is compatible for submission to the Stride hybrid solver.
 
-The objective is to maximize the total value of products in the shipping container. The decision variable represents the products that are packed into the shipping container. There are two constraints: the total weight of selected products cannot exceed the weight limit of the shipping container, and no more than a certain number of products can be packed in the shipping container.
+The objective is to maximize the total value of products in the shipping container. The decision variable represents which products are packed into the shipping container. There are two constraints: the total weight of selected products cannot exceed the weight limit of the shipping container, and no more than a certain number of products can be packed in the shipping container.
 
-Build the nonlinear model, define the objective function, and add the constraints.
 
 The code in the repo is intended to help you answer the quiz questions in the online course.
 
